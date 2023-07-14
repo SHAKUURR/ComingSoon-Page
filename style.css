@@ -23,6 +23,7 @@ header {
   background-size: cover;
   padding: 3rem 5rem;
   padding-top: 5rem;
+  min-height: 100vh;
 }
 
 .container {
