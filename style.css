@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Share+Tech&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #fff;
+}
+
+header {
+  background-image: url(img/Rectangle\ 4377.png);
+  background-position: center;
+  background-size: cover;
+  padding: 3rem 5rem;
+  padding-top: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-heading {
+  text-align: center;
+}
+
+.welcome-heading h1 {
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.welcome-heading p {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome-count {
+  margin-top: 3rem;
+}
+
+.welcome-count h2 {
+  color: #F2F2F2;
+  text-align: center;
+  font-family: 'Share Tech';
+  font-size: 2.9rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1.2rem;
+}
+
+.counters {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 2rem;
+  -webkit-gap: 2rem;
+  margin-bottom: 7rem;
+}
+
+
+.counter-box h3 {
+  font-family: 'Share Tech';
+  font-size: 9.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.833rem;
+  color: #F2F2F2;
+  border-radius: 0.7rem;
+  background: #1BAA76;
+  padding: 1rem 3rem;
+  margin-bottom: .9rem;
+  position: relative;
+}
+
+.stroke {
+  position: absolute;
+  top: 0;
+  left: 0rem;
+}
+
+.counter-box p {
+  color: #F2F2F2;
+  font-family: 'Share Tech';
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.login-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 6rem;
+}
+
+.login {
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 0.5rem;
+  background: #1BAA76;
+  padding: 1rem 5rem;
+}
+
+.feature-container {
+  align-self: flex-start;
+  margin-top: 3rem;
+}
+
+.bill {
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+
+.features h3 {
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 3rem;
+}
+
+.feature-list {
+  display: flex;
+  align-items: center;
+}
+
+.feature-list:not(:last-child) {
+  margin-bottom: 2.5rem;
+}
+
+.feature-list i {
+  font-size: 2rem;
+}
+
+.feature-list p {
+  font-size: 2.3171rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 1.5rem;
+}
